@@ -232,7 +232,7 @@ class CreateWorkoutActivity : AppCompatActivity() {
         }
     }
     
-    private fun showCancelConfirmation() {
+    private fun showCancelConfirmation(onConfirm: () -> Unit = { finish() }) {
         val name = binding.editTextWorkoutName.text.toString().trim()
         val notes = binding.editTextWorkoutNotes.text.toString().trim()
         val hasChanges = name.isNotEmpty() || notes.isNotEmpty()
@@ -242,14 +242,14 @@ class CreateWorkoutActivity : AppCompatActivity() {
                 .setTitle("Discard changes?")
                 .setMessage("You have unsaved changes. Are you sure you want to discard them?")
                 .setPositiveButton("Discard") { _, _ ->
-                    finish()
+                    onConfirm()
                 }
                 .setNegativeButton("Cancel") { dialog, _ ->
                     dialog.dismiss()
                 }
                 .show()
         } else {
-            finish()
+            onConfirm()
         }
     }
     
@@ -284,6 +284,6 @@ class CreateWorkoutActivity : AppCompatActivity() {
     }
     
     override fun onBackPressed() {
-        showCancelConfirmation()
+        showCancelConfirmation { super.onBackPressed() }
     }
 }

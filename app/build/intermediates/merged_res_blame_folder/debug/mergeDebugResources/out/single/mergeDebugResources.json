@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_activity_login.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_notes.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_notes.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_trending_up.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_trending_up.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_schedule.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_settings.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_item_workout.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/item_workout.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_email.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_logout.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_activity_main.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_calendar.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_refresh.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_person.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.workouttracker.app-debug-60:/xml_data_extraction_rules.xml.flat",
+        "source": "com.workouttracker.app-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_item_exercise.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/item_exercise.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_fitness_center.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_fitness_center.xml"
+    },
+    {
+        "merged": "com.workouttracker.app-debug-60:/drawable_ic_launcher.xml.flat",
+        "source": "com.workouttracker.app-main-62:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_activity_create_workout.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/activity_create_workout.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/menu_main_menu.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/menu_workout_detail_menu.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/menu/workout_detail_menu.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_lock.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_chevron_right.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_add.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_delete.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/drawable_ic_edit.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-debug-60:/layout_activity_workout_detail.xml.flat",
+        "source": "/home/eric/.gradle/daemon/8.5/com.workouttracker.app-main-62:/layout/activity_workout_detail.xml"
+    },
+    {
+        "merged": "com.workouttracker.app-debug-60:/xml_backup_rules.xml.flat",
+        "source": "com.workouttracker.app-main-62:/xml/backup_rules.xml"
+    }
+]

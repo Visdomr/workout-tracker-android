@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rules for Android Auto Backup -->
+    <exclude domain="sharedpref" path="user_credentials.xml" />
+    <exclude domain="database" path="temp_cache/" />
+</rules>

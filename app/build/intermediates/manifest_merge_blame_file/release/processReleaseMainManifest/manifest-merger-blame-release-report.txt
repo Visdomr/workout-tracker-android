@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.workouttracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Network permissions for API calls -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <!-- Storage permissions for local caching -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:10:5-80
+16-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission
+17-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:11:5-12:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:11:22-78
+19        android:maxSdkVersion="28" />
+19-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:12:9-35
+20
+21    <permission
+21-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.workouttracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.workouttracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:14:5-50:19
+28        android:name="com.workouttracker.WorkoutTrackerApplication"
+28-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:15:9-50
+29        android:allowBackup="true"
+29-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] /home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:17:9-65
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:18:9-54
+34        android:icon="@drawable/ic_launcher"
+34-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:19:9-45
+35        android:label="@string/app_name"
+35-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:20:9-41
+36        android:theme="@style/Theme.WorkoutTracker"
+36-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:21:9-52
+37        android:usesCleartextTraffic="true" >
+37-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:22:9-44
+38        <activity
+38-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:25:9-28:71
+39            android:name="com.workouttracker.ui.auth.LoginActivity"
+39-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:26:13-50
+40            android:exported="false"
+40-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:27:13-37
+41            android:theme="@style/Theme.WorkoutTracker.NoActionBar" />
+41-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:28:13-68
+42        <activity
+42-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:30:9-38:20
+43            android:name="com.workouttracker.ui.MainActivity"
+43-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:31:13-44
+44            android:exported="true"
+44-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:32:13-36
+45            android:theme="@style/Theme.WorkoutTracker" >
+45-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:33:13-56
+46            <intent-filter>
+46-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:34:13-37:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:35:17-69
+47-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:35:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:36:17-77
+49-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:36:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:40:9-43:61
+53            android:name="com.workouttracker.ui.workout.CreateWorkoutActivity"
+53-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:41:13-61
+54            android:exported="false"
+54-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:42:13-37
+55            android:parentActivityName="com.workouttracker.ui.MainActivity" />
+55-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:43:13-58
+56        <activity
+56-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:45:9-48:61
+57            android:name="com.workouttracker.ui.workout.WorkoutDetailActivity"
+57-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:46:13-61
+58            android:exported="false"
+58-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:47:13-37
+59            android:parentActivityName="com.workouttracker.ui.MainActivity" />
+59-->/home/eric/Github/workout-tracker-android/app/src/main/AndroidManifest.xml:48:13-58
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+63            android:authorities="com.workouttracker.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] /home/eric/.gradle/caches/transforms-3/2ab8531ee40aaf9879f650f8dc8f912e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/eric/.gradle/caches/transforms-3/2e552f9d2ca42e26ac8c75829e4f9214/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/eric/.gradle/caches/transforms-3/2e552f9d2ca42e26ac8c75829e4f9214/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/eric/.gradle/caches/transforms-3/2e552f9d2ca42e26ac8c75829e4f9214/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <uses-library
+76-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0] /home/eric/.gradle/caches/transforms-3/69b4573c9ff53552af0c78a42da45fc4/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+82
+83        <service
+83-->[androidx.room:room-runtime:2.6.1] /home/eric/.gradle/caches/transforms-3/d20bc102becf703d619ce5e1ab4009ae/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.6.1] /home/eric/.gradle/caches/transforms-3/d20bc102becf703d619ce5e1ab4009ae/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+85            android:directBootAware="true"
+85-->[androidx.room:room-runtime:2.6.1] /home/eric/.gradle/caches/transforms-3/d20bc102becf703d619ce5e1ab4009ae/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+86            android:exported="false" />
+86-->[androidx.room:room-runtime:2.6.1] /home/eric/.gradle/caches/transforms-3/d20bc102becf703d619ce5e1ab4009ae/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/eric/.gradle/caches/transforms-3/cfb53f9ba034affb1ace5f54da691b0c/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

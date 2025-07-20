@@ -54,4 +54,5 @@
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
     <color name="divider">#E0E0E0</color>
+    <color name="ic_launcher_background">#3DDC84</color>
 </resources>
