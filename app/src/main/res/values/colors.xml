@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Light Theme Colors -->
+    <color name="md_theme_primary">#1976D2</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#BBE3FF</color>
+    <color name="md_theme_on_primary_container">#001D33</color>
+    
+    <color name="md_theme_secondary">#556B2F</color>
+    <color name="md_theme_on_secondary">#FFFFFF</color>
+    <color name="md_theme_secondary_container">#D8F2A8</color>
+    <color name="md_theme_on_secondary_container">#131F00</color>
+    
+    <color name="md_theme_tertiary">#6D5E00</color>
+    <color name="md_theme_on_tertiary">#FFFFFF</color>
+    <color name="md_theme_tertiary_container">#F9E158</color>
+    <color name="md_theme_on_tertiary_container">#211B00</color>
+    
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_error_container">#FFDAD6</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+    <color name="md_theme_on_error_container">#410002</color>
+    
+    <color name="md_theme_background">#FEFBFF</color>
+    <color name="md_theme_on_background">#1C1B1F</color>
+    
+    <color name="md_theme_surface">#FEFBFF</color>
+    <color name="md_theme_on_surface">#1C1B1F</color>
+    <color name="md_theme_surface_variant">#E2E2EC</color>
+    <color name="md_theme_on_surface_variant">#45464F</color>
+    
+    <color name="md_theme_outline">#76767F</color>
+    <color name="md_theme_outline_variant">#C6C6D0</color>
+    
+    <!-- Additional colors for fitness app -->
+    <color name="fitness_green">#4CAF50</color>
+    <color name="fitness_green_light">#81C784</color>
+    <color name="fitness_red">#F44336</color>
+    <color name="fitness_orange">#FF9800</color>
+    <color name="fitness_blue">#2196F3</color>
+    
+    <!-- Exercise category colors -->
+    <color name="category_chest">#E91E63</color>
+    <color name="category_back">#9C27B0</color>
+    <color name="category_shoulders">#673AB7</color>
+    <color name="category_arms">#3F51B5</color>
+    <color name="category_legs">#2196F3</color>
+    <color name="category_core">#00BCD4</color>
+    <color name="category_cardio">#4CAF50</color>
+    <color name="category_other">#607D8B</color>
+    
+    <!-- Common colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#E0E0E0</color>
+</resources>
