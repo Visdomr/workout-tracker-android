@@ -27,6 +27,6 @@
       applicationId="com.workouttracker"
       generatedSourceFolders="build/generated/source/kapt/release:build/generated/ap_generated_sources/release/out:build/generated/data_binding_base_class_source_out/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
-      desugaredMethodsFiles="/home/eric/.gradle/caches/transforms-3/d1dabf538211e953349c63dfb4c0de80/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/eric/.gradle/caches/transforms-3/40056a3c8ca4dce27176396de7beafa6/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

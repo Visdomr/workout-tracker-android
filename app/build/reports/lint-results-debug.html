@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 115 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 111 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Sun Jul 20 00:56:15 PDT 2025 by AGP (8.3.0)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Sun Jul 20 20:53:48 PDT 2025 by AGP (8.3.0)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -198,7 +198,6 @@ document.getElementById(id).style.display = 'none';
       <a class="mdl-navigation__link" href="#TypographyEllipsis"><i class="material-icons warning-icon">warning</i>Ellipsis string can be replaced with ellipsis character (1)</a>
       <a class="mdl-navigation__link" href="#SmallSp"><i class="material-icons warning-icon">warning</i>Text size is too small (4)</a>
       <a class="mdl-navigation__link" href="#ContentDescription"><i class="material-icons warning-icon">warning</i>Image without <code>contentDescription</code> (7)</a>
-      <a class="mdl-navigation__link" href="#SetTextI18n"><i class="material-icons warning-icon">warning</i>TextView Internationalization (4)</a>
       <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (4)</a>
       <a class="mdl-navigation__link" href="#RtlEnabled"><i class="material-icons warning-icon">warning</i>Using RTL attributes without enabling RTL support (1)</a>
     </nav>
@@ -261,9 +260,6 @@ document.getElementById(id).style.display = 'none';
 <a href="#ContentDescription">ContentDescription</a>: Image without <code>contentDescription</code></td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
 </td></tr>
-<tr>
-<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#SetTextI18n">SetTextI18n</a>: TextView Internationalization</td></tr>
 <tr>
 <td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
@@ -399,161 +395,161 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:50</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0</span><br /><pre class="errorlines">
-<span class="lineno">  47 </span>
-<span class="lineno">  48 </span>dependencies {
-<span class="lineno">  49 </span>    <span class="comment">// Core Android</span>
-<span class="caretline"><span class="lineno">  50 </span>    implementation <span class="warning"><span class="string">'androidx.core:core-ktx:1.12.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  51 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
-<span class="lineno">  52 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
-<span class="lineno">  53 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:57</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0</span><br /><pre class="errorlines">
+<span class="lineno">  54 </span>
+<span class="lineno">  55 </span>dependencies {
+<span class="lineno">  56 </span>    <span class="comment">// Core Android</span>
+<span class="caretline"><span class="lineno">  57 </span>    implementation <span class="warning"><span class="string">'androidx.core:core-ktx:1.12.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  58 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
+<span class="lineno">  59 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
+<span class="lineno">  60 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:51</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1</span><br /><pre class="errorlines">
-<span class="lineno">  48 </span>dependencies {
-<span class="lineno">  49 </span>    <span class="comment">// Core Android</span>
-<span class="lineno">  50 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
-<span class="caretline"><span class="lineno">  51 </span>    implementation <span class="warning"><span class="string">'androidx.appcompat:appcompat:1.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  52 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
-<span class="lineno">  53 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
-<span class="lineno">  54 </span>    
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:58</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1</span><br /><pre class="errorlines">
+<span class="lineno">  55 </span>dependencies {
+<span class="lineno">  56 </span>    <span class="comment">// Core Android</span>
+<span class="lineno">  57 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
+<span class="caretline"><span class="lineno">  58 </span>    implementation <span class="warning"><span class="string">'androidx.appcompat:appcompat:1.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  59 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
+<span class="lineno">  60 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
+<span class="lineno">  61 </span>    
 </pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:52</span>: <span class="message">A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0</span><br /><pre class="errorlines">
-<span class="lineno">  49 </span>    <span class="comment">// Core Android</span>
-<span class="lineno">  50 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
-<span class="lineno">  51 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
-<span class="caretline"><span class="lineno">  52 </span>    implementation <span class="warning"><span class="string">'com.google.android.material:material:1.11.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  53 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
-<span class="lineno">  54 </span>    
-<span class="lineno">  55 </span>    <span class="comment">// Activity and Fragment</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:59</span>: <span class="message">A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0</span><br /><pre class="errorlines">
+<span class="lineno">  56 </span>    <span class="comment">// Core Android</span>
+<span class="lineno">  57 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
+<span class="lineno">  58 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
+<span class="caretline"><span class="lineno">  59 </span>    implementation <span class="warning"><span class="string">'com.google.android.material:material:1.11.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  60 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
+<span class="lineno">  61 </span>    
+<span class="lineno">  62 </span>    <span class="comment">// Activity and Fragment</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:53</span>: <span class="message">A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1</span><br /><pre class="errorlines">
-<span class="lineno">  50 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
-<span class="lineno">  51 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
-<span class="lineno">  52 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
-<span class="caretline"><span class="lineno">  53 </span>    implementation <span class="warning"><span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  54 </span>    
-<span class="lineno">  55 </span>    <span class="comment">// Activity and Fragment</span>
-<span class="lineno">  56 </span>    implementation <span class="string">'androidx.activity:activity-ktx:1.8.2'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:60</span>: <span class="message">A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1</span><br /><pre class="errorlines">
+<span class="lineno">  57 </span>    implementation <span class="string">'androidx.core:core-ktx:1.12.0'</span>
+<span class="lineno">  58 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.6.1'</span>
+<span class="lineno">  59 </span>    implementation <span class="string">'com.google.android.material:material:1.11.0'</span>
+<span class="caretline"><span class="lineno">  60 </span>    implementation <span class="warning"><span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  61 </span>    
+<span class="lineno">  62 </span>    <span class="comment">// Activity and Fragment</span>
+<span class="lineno">  63 </span>    implementation <span class="string">'androidx.activity:activity-ktx:1.8.2'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:56</span>: <span class="message">A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.1</span><br /><pre class="errorlines">
-<span class="lineno">  53 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
-<span class="lineno">  54 </span>    
-<span class="lineno">  55 </span>    <span class="comment">// Activity and Fragment</span>
-<span class="caretline"><span class="lineno">  56 </span>    implementation <span class="warning"><span class="string">'androidx.activity:activity-ktx:1.8.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  57 </span>    implementation <span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span>
-<span class="lineno">  58 </span>    
-<span class="lineno">  59 </span>    <span class="comment">// Lifecycle</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:63</span>: <span class="message">A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.1</span><br /><pre class="errorlines">
+<span class="lineno">  60 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.1.4'</span>
+<span class="lineno">  61 </span>    
+<span class="lineno">  62 </span>    <span class="comment">// Activity and Fragment</span>
+<span class="caretline"><span class="lineno">  63 </span>    implementation <span class="warning"><span class="string">'androidx.activity:activity-ktx:1.8.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  64 </span>    implementation <span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span>
+<span class="lineno">  65 </span>    
+<span class="lineno">  66 </span>    <span class="comment">// Lifecycle</span></pre>
 
 <button class="mdl-button mdl-js-button mdl-button--primary" id="GradleDependencyDivLink" onclick="reveal('GradleDependencyDiv');" />+ 12 More Occurrences...</button>
 <div id="GradleDependencyDiv" style="display: none">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:57</span>: <span class="message">A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.8</span><br /><pre class="errorlines">
-<span class="lineno">  54 </span>    
-<span class="lineno">  55 </span>    <span class="comment">// Activity and Fragment</span>
-<span class="lineno">  56 </span>    implementation <span class="string">'androidx.activity:activity-ktx:1.8.2'</span>
-<span class="caretline"><span class="lineno">  57 </span>    implementation <span class="warning"><span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  58 </span>    
-<span class="lineno">  59 </span>    <span class="comment">// Lifecycle</span>
-<span class="lineno">  60 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:64</span>: <span class="message">A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.8</span><br /><pre class="errorlines">
+<span class="lineno">  61 </span>    
+<span class="lineno">  62 </span>    <span class="comment">// Activity and Fragment</span>
+<span class="lineno">  63 </span>    implementation <span class="string">'androidx.activity:activity-ktx:1.8.2'</span>
+<span class="caretline"><span class="lineno">  64 </span>    implementation <span class="warning"><span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  65 </span>    
+<span class="lineno">  66 </span>    <span class="comment">// Lifecycle</span>
+<span class="lineno">  67 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:60</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
-<span class="lineno">  57 </span>    implementation <span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span>
-<span class="lineno">  58 </span>    
-<span class="lineno">  59 </span>    <span class="comment">// Lifecycle</span>
-<span class="caretline"><span class="lineno">  60 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  61 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span>
-<span class="lineno">  62 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
-<span class="lineno">  63 </span>    
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:67</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
+<span class="lineno">  64 </span>    implementation <span class="string">'androidx.fragment:fragment-ktx:1.6.2'</span>
+<span class="lineno">  65 </span>    
+<span class="lineno">  66 </span>    <span class="comment">// Lifecycle</span>
+<span class="caretline"><span class="lineno">  67 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  68 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span>
+<span class="lineno">  69 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
+<span class="lineno">  70 </span>    
 </pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:61</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
-<span class="lineno">  58 </span>    
-<span class="lineno">  59 </span>    <span class="comment">// Lifecycle</span>
-<span class="lineno">  60 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span>
-<span class="caretline"><span class="lineno">  61 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  62 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
-<span class="lineno">  63 </span>    
-<span class="lineno">  64 </span>    <span class="comment">// Navigation</span></pre>
-
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:62</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
-<span class="lineno">  59 </span>    <span class="comment">// Lifecycle</span>
-<span class="lineno">  60 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span>
-<span class="lineno">  61 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span>
-<span class="caretline"><span class="lineno">  62 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  63 </span>    
-<span class="lineno">  64 </span>    <span class="comment">// Navigation</span>
-<span class="lineno">  65 </span>    implementation <span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span></pre>
-
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:65</span>: <span class="message">A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.2</span><br /><pre class="errorlines">
-<span class="lineno">  62 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
-<span class="lineno">  63 </span>    
-<span class="lineno">  64 </span>    <span class="comment">// Navigation</span>
-<span class="caretline"><span class="lineno">  65 </span>    implementation <span class="warning"><span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  66 </span>    implementation <span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span>
-<span class="lineno">  67 </span>    
-<span class="lineno">  68 </span>    <span class="comment">// RecyclerView</span></pre>
-
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:66</span>: <span class="message">A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.2</span><br /><pre class="errorlines">
-<span class="lineno">  63 </span>    
-<span class="lineno">  64 </span>    <span class="comment">// Navigation</span>
-<span class="lineno">  65 </span>    implementation <span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span>
-<span class="caretline"><span class="lineno">  66 </span>    implementation <span class="warning"><span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  67 </span>    
-<span class="lineno">  68 </span>    <span class="comment">// RecyclerView</span>
-<span class="lineno">  69 </span>    implementation <span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span></pre>
-
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:69</span>: <span class="message">A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0</span><br /><pre class="errorlines">
-<span class="lineno">  66 </span>    implementation <span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span>
-<span class="lineno">  67 </span>    
-<span class="lineno">  68 </span>    <span class="comment">// RecyclerView</span>
-<span class="caretline"><span class="lineno">  69 </span>    implementation <span class="warning"><span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:68</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
+<span class="lineno">  65 </span>    
+<span class="lineno">  66 </span>    <span class="comment">// Lifecycle</span>
+<span class="lineno">  67 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span>
+<span class="caretline"><span class="lineno">  68 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  69 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
 <span class="lineno">  70 </span>    
-<span class="lineno">  71 </span>    <span class="comment">// Room database</span>
-<span class="lineno">  72 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span></pre>
+<span class="lineno">  71 </span>    <span class="comment">// Navigation</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:72</span>: <span class="message">A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
-<span class="lineno">  69 </span>    implementation <span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:69</span>: <span class="message">A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.2</span><br /><pre class="errorlines">
+<span class="lineno">  66 </span>    <span class="comment">// Lifecycle</span>
+<span class="lineno">  67 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'</span>
+<span class="lineno">  68 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'</span>
+<span class="caretline"><span class="lineno">  69 </span>    implementation <span class="warning"><span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno">  70 </span>    
-<span class="lineno">  71 </span>    <span class="comment">// Room database</span>
-<span class="caretline"><span class="lineno">  72 </span>    implementation <span class="warning"><span class="string">'androidx.room:room-runtime:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  73 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
-<span class="lineno">  74 </span>    kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span>
-<span class="lineno">  75 </span>    
+<span class="lineno">  71 </span>    <span class="comment">// Navigation</span>
+<span class="lineno">  72 </span>    implementation <span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span></pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:72</span>: <span class="message">A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.2</span><br /><pre class="errorlines">
+<span class="lineno">  69 </span>    implementation <span class="string">'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'</span>
+<span class="lineno">  70 </span>    
+<span class="lineno">  71 </span>    <span class="comment">// Navigation</span>
+<span class="caretline"><span class="lineno">  72 </span>    implementation <span class="warning"><span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  73 </span>    implementation <span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span>
+<span class="lineno">  74 </span>    
+<span class="lineno">  75 </span>    <span class="comment">// RecyclerView</span></pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:73</span>: <span class="message">A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.2</span><br /><pre class="errorlines">
+<span class="lineno">  70 </span>    
+<span class="lineno">  71 </span>    <span class="comment">// Navigation</span>
+<span class="lineno">  72 </span>    implementation <span class="string">'androidx.navigation:navigation-fragment-ktx:2.7.6'</span>
+<span class="caretline"><span class="lineno">  73 </span>    implementation <span class="warning"><span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  74 </span>    
+<span class="lineno">  75 </span>    <span class="comment">// RecyclerView</span>
+<span class="lineno">  76 </span>    implementation <span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span></pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:76</span>: <span class="message">A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0</span><br /><pre class="errorlines">
+<span class="lineno">  73 </span>    implementation <span class="string">'androidx.navigation:navigation-ui-ktx:2.7.6'</span>
+<span class="lineno">  74 </span>    
+<span class="lineno">  75 </span>    <span class="comment">// RecyclerView</span>
+<span class="caretline"><span class="lineno">  76 </span>    implementation <span class="warning"><span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  77 </span>    
+<span class="lineno">  78 </span>    <span class="comment">// Room database</span>
+<span class="lineno">  79 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span></pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:79</span>: <span class="message">A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
+<span class="lineno">  76 </span>    implementation <span class="string">'androidx.recyclerview:recyclerview:1.3.2'</span>
+<span class="lineno">  77 </span>    
+<span class="lineno">  78 </span>    <span class="comment">// Room database</span>
+<span class="caretline"><span class="lineno">  79 </span>    implementation <span class="warning"><span class="string">'androidx.room:room-runtime:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  80 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
+<span class="lineno">  81 </span>    kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span>
+<span class="lineno">  82 </span>    
 </pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:73</span>: <span class="message">A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
-<span class="lineno">  70 </span>    
-<span class="lineno">  71 </span>    <span class="comment">// Room database</span>
-<span class="lineno">  72 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
-<span class="caretline"><span class="lineno">  73 </span>    implementation <span class="warning"><span class="string">'androidx.room:room-ktx:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  74 </span>    kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span>
-<span class="lineno">  75 </span>    
-<span class="lineno">  76 </span>    <span class="comment">// Networking</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:80</span>: <span class="message">A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
+<span class="lineno">  77 </span>    
+<span class="lineno">  78 </span>    <span class="comment">// Room database</span>
+<span class="lineno">  79 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
+<span class="caretline"><span class="lineno">  80 </span>    implementation <span class="warning"><span class="string">'androidx.room:room-ktx:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  81 </span>    kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span>
+<span class="lineno">  82 </span>    
+<span class="lineno">  83 </span>    <span class="comment">// Networking</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:74</span>: <span class="message">A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
-<span class="lineno">  71 </span>    <span class="comment">// Room database</span>
-<span class="lineno">  72 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
-<span class="lineno">  73 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
-<span class="caretline"><span class="lineno">  74 </span>    kapt <span class="warning"><span class="string">'androidx.room:room-compiler:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  75 </span>    
-<span class="lineno">  76 </span>    <span class="comment">// Networking</span>
-<span class="lineno">  77 </span>    implementation <span class="string">'com.squareup.retrofit2:retrofit:2.9.0'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:81</span>: <span class="message">A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2</span><br /><pre class="errorlines">
+<span class="lineno">  78 </span>    <span class="comment">// Room database</span>
+<span class="lineno">  79 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
+<span class="lineno">  80 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
+<span class="caretline"><span class="lineno">  81 </span>    kapt <span class="warning"><span class="string">'androidx.room:room-compiler:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  82 </span>    
+<span class="lineno">  83 </span>    <span class="comment">// Networking</span>
+<span class="lineno">  84 </span>    implementation <span class="string">'com.squareup.retrofit2:retrofit:2.9.0'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:104</span>: <span class="message">A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1</span><br /><pre class="errorlines">
-<span class="lineno"> 101 </span>    
-<span class="lineno"> 102 </span>    <span class="comment">// Testing</span>
-<span class="lineno"> 103 </span>    testImplementation <span class="string">'junit:junit:4.13.2'</span>
-<span class="caretline"><span class="lineno"> 104 </span>    androidTestImplementation <span class="warning"><span class="string">'androidx.test.ext:junit:1.1.5'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 105 </span>    androidTestImplementation <span class="string">'androidx.test.espresso:espresso-core:3.5.1'</span>
-<span class="lineno"> 106 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:111</span>: <span class="message">A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1</span><br /><pre class="errorlines">
+<span class="lineno"> 108 </span>    
+<span class="lineno"> 109 </span>    <span class="comment">// Testing</span>
+<span class="lineno"> 110 </span>    testImplementation <span class="string">'junit:junit:4.13.2'</span>
+<span class="caretline"><span class="lineno"> 111 </span>    androidTestImplementation <span class="warning"><span class="string">'androidx.test.ext:junit:1.1.5'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 112 </span>    androidTestImplementation <span class="string">'androidx.test.espresso:espresso-core:3.5.1'</span>
+<span class="lineno"> 113 </span>}
 </pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:105</span>: <span class="message">A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1</span><br /><pre class="errorlines">
-<span class="lineno"> 102 </span>    <span class="comment">// Testing</span>
-<span class="lineno"> 103 </span>    testImplementation <span class="string">'junit:junit:4.13.2'</span>
-<span class="lineno"> 104 </span>    androidTestImplementation <span class="string">'androidx.test.ext:junit:1.1.5'</span>
-<span class="caretline"><span class="lineno"> 105 </span>    androidTestImplementation <span class="warning"><span class="string">'androidx.test.espresso:espresso-core:3.5.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 106 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:112</span>: <span class="message">A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1</span><br /><pre class="errorlines">
+<span class="lineno"> 109 </span>    <span class="comment">// Testing</span>
+<span class="lineno"> 110 </span>    testImplementation <span class="string">'junit:junit:4.13.2'</span>
+<span class="lineno"> 111 </span>    androidTestImplementation <span class="string">'androidx.test.ext:junit:1.1.5'</span>
+<span class="caretline"><span class="lineno"> 112 </span>    androidTestImplementation <span class="warning"><span class="string">'androidx.test.espresso:espresso-core:3.5.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 113 </span>}
 </pre>
 
 </div>
@@ -751,14 +747,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:74</span>: <span class="message">This library supports using KSP instead of kapt, which greatly improves performance. Learn more: <a href="https://developer.android.com/studio/build/migrate-to-ksp">https://developer.android.com/studio/build/migrate-to-ksp</a></span><br /><pre class="errorlines">
-<span class="lineno">  71 </span>    <span class="comment">// Room database</span>
-<span class="lineno">  72 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
-<span class="lineno">  73 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
-<span class="caretline"><span class="lineno">  74 </span>    <span class="warning">kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  75 </span>    
-<span class="lineno">  76 </span>    <span class="comment">// Networking</span>
-<span class="lineno">  77 </span>    implementation <span class="string">'com.squareup.retrofit2:retrofit:2.9.0'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:81</span>: <span class="message">This library supports using KSP instead of kapt, which greatly improves performance. Learn more: <a href="https://developer.android.com/studio/build/migrate-to-ksp">https://developer.android.com/studio/build/migrate-to-ksp</a></span><br /><pre class="errorlines">
+<span class="lineno">  78 </span>    <span class="comment">// Room database</span>
+<span class="lineno">  79 </span>    implementation <span class="string">'androidx.room:room-runtime:2.6.1'</span>
+<span class="lineno">  80 </span>    implementation <span class="string">'androidx.room:room-ktx:2.6.1'</span>
+<span class="caretline"><span class="lineno">  81 </span>    <span class="warning">kapt <span class="string">'androidx.room:room-compiler:2.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  82 </span>    
+<span class="lineno">  83 </span>    <span class="comment">// Networking</span>
+<span class="lineno">  84 </span>    implementation <span class="string">'com.squareup.retrofit2:retrofit:2.9.0'</span></pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationKaptUsageInsteadOfKsp" style="display: none;">
@@ -1567,86 +1563,7 @@ Dismiss</button>            </div>
             </div>
           </section>
 <a name="Internationalization"></a>
-<a name="SetTextI18n"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="SetTextI18nCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">TextView Internationalization</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/java/com/workouttracker/ui/workout/CreateWorkoutActivity.kt">../../src/main/java/com/workouttracker/ui/workout/CreateWorkoutActivity.kt</a>:151</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 148 </span>            
-<span class="lineno"> 149 </span>            <span class="comment">// Set duration</span>
-<span class="lineno"> 150 </span>            <span class="keyword">if</span> (workout.duration > <span class="number">0</span>) {
-<span class="caretline"><span class="lineno"> 151 </span>                textWorkoutDuration.text = <span class="warning"><span class="string">"${</span>workout.duration<span class="string">} minutes"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 152 </span>                textWorkoutDuration.tag = workout.duration
-<span class="lineno"> 153 </span>            }
-<span class="lineno"> 154 </span>        }
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/workouttracker/ui/workout/CreateWorkoutActivity.kt">../../src/main/java/com/workouttracker/ui/workout/CreateWorkoutActivity.kt</a>:151</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 148 </span>            
-<span class="lineno"> 149 </span>            <span class="comment">// Set duration</span>
-<span class="lineno"> 150 </span>            <span class="keyword">if</span> (workout.duration > <span class="number">0</span>) {
-<span class="caretline"><span class="lineno"> 151 </span>                textWorkoutDuration.text = <span class="string">"${</span>workout.duration<span class="string">}</span><span class="warning"><span class="string"> minutes</span></span><span class="string">"</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 152 </span>                textWorkoutDuration.tag = workout.duration
-<span class="lineno"> 153 </span>            }
-<span class="lineno"> 154 </span>        }
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/workouttracker/ui/workout/ExerciseAdapter.kt">../../src/main/java/com/workouttracker/ui/workout/ExerciseAdapter.kt</a>:50</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 47 </span>           
-<span class="lineno"> 48 </span>           <span class="comment">// Show set count</span>
-<span class="lineno"> 49 </span>           <span class="keyword">val</span> setCount = exercise.sets.size
-<span class="caretline"><span class="lineno"> 50 </span>           textSetCount.text = <span class="warning"><span class="string">"$setCount ${</span><span class="keyword">if</span> (setCount == <span class="number">1</span>) <span class="string">"set"</span> <span class="keyword">else</span> <span class="string">"sets"}"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 51 </span>           
-<span class="lineno"> 52 </span>           <span class="comment">// Show total weight/reps summary if available</span>
-<span class="lineno"> 53 </span>           <span class="keyword">if</span> (exercise.sets.isNotEmpty()) {
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/workouttracker/ui/workout/WorkoutDetailActivity.kt">../../src/main/java/com/workouttracker/ui/workout/WorkoutDetailActivity.kt</a>:137</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 134 </span>  
-<span class="lineno"> 135 </span>  <span class="comment">// Exercise count and categories</span>
-<span class="lineno"> 136 </span>  <span class="keyword">val</span> exerciseCount = workout.exercises.size
-<span class="caretline"><span class="lineno"> 137 </span>  textExerciseCount.text = <span class="warning"><span class="string">"$exerciseCount ${</span><span class="keyword">if</span> (exerciseCount == <span class="number">1</span>) <span class="string">"exercise"</span> <span class="keyword">else</span> <span class="string">"exercises"}"</span></span></span>
-<span class="lineno"> 138 </span>  
-<span class="lineno"> 139 </span>  <span class="comment">// Update exercise list</span>
-<span class="lineno"> 140 </span>  updateExerciseList(workout)
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationSetTextI18n" style="display: none;">
-When calling <code>TextView#setText</code><br/>
-* Never call <code>Number#toString()</code> to format numbers; it will not handle fraction separators and locale-specific digits properly. Consider using <code>String#format</code> with proper format specifications (<code>%d</code> or <code>%f</code>) instead.<br/>
-* Do not pass a string literal (e.g. "Hello") to display text. Hardcoded text can not be properly translated to other languages. Consider using Android resource strings instead.<br/>
-* Do not build messages by concatenating text chunks. Such messages can not be properly translated.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/guide/topics/resources/localization.html">https://developer.android.com/guide/topics/resources/localization.html</a>
-</div>To suppress this error, use the issue id "SetTextI18n" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">SetTextI18n</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Internationalization</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 6/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationSetTextI18nLink" onclick="reveal('explanationSetTextI18n');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SetTextI18nCardLink" onclick="hideid('SetTextI18nCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="HardcodedText"></a>
+<a name="HardcodedText"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="HardcodedTextCard" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">

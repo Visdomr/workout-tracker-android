@@ -38,10 +38,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib"
-    version: "1.9.22"
+    version: "2.1.0"
   }
   digests {
-    sha256: "j\276\024l\'\206A8\270t\314\314\376_SN>\271#\311\232\033{]EIN\345iO>\n"
+    sha256: "\326\371\033{\0170l\312)\237\354t\373|4\344\207Mo^\305\271%\240\264\336!\220\036\021\234?"
   }
   repo_index {
     value: 1
@@ -90,7 +90,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib-common"
-    version: "1.9.22"
+    version: "2.1.0"
   }
   repo_index {
     value: 1
@@ -1321,10 +1321,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-parcelize-runtime"
-    version: "1.9.22"
+    version: "2.1.0"
   }
   digests {
-    sha256: "\360\a\1775\354\202\216\024\212\311-\fj\241A\2472\265\353zJ9\026y\256\357\245\237\251\241\245\314"
+    sha256: "\334\340\342\273*\246E\376u\a\000\267\223\247\366\373\307R\261@\323t\022\016\372\354\3510\0223#\305"
   }
   repo_index {
     value: 1
@@ -1334,10 +1334,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-android-extensions-runtime"
-    version: "1.9.22"
+    version: "2.1.0"
   }
   digests {
-    sha256: "\360\0057\307\002>`I3\366\251V;\033\263\270>a\373\375,\303\320\351\220\rak\253hb\244"
+    sha256: "/}\355\307\224\3406\301\211\026\277\204\263\340wK\373\222\024\"Y\a\223\226\037\360\021\340\260\376+\247"
   }
   repo_index {
     value: 1

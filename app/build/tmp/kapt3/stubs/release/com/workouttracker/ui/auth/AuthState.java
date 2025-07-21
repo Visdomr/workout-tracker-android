@@ -1,5 +1,12 @@
 package com.workouttracker.ui.auth;
 
+import android.app.Application;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import com.workouttracker.data.model.User;
+import com.workouttracker.data.repository.WorkoutRepository;
+
 @kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b6\u0018\u00002\u00020\u0001:\u0004\u0003\u0004\u0005\u0006B\u0007\b\u0004\u00a2\u0006\u0002\u0010\u0002\u0082\u0001\u0004\u0007\b\t\n\u00a8\u0006\u000b"}, d2 = {"Lcom/workouttracker/ui/auth/AuthState;", "", "()V", "Error", "Idle", "Loading", "Success", "Lcom/workouttracker/ui/auth/AuthState$Error;", "Lcom/workouttracker/ui/auth/AuthState$Idle;", "Lcom/workouttracker/ui/auth/AuthState$Loading;", "Lcom/workouttracker/ui/auth/AuthState$Success;", "app_release"})
 public abstract class AuthState {
     
@@ -11,15 +18,6 @@ public abstract class AuthState {
     public static final class Error extends com.workouttracker.ui.auth.AuthState {
         @org.jetbrains.annotations.NotNull()
         private final java.lang.String message = null;
-        
-        public Error(@org.jetbrains.annotations.NotNull()
-        java.lang.String message) {
-        }
-        
-        @org.jetbrains.annotations.NotNull()
-        public final java.lang.String getMessage() {
-            return null;
-        }
         
         @org.jetbrains.annotations.NotNull()
         public final java.lang.String component1() {
@@ -48,6 +46,15 @@ public abstract class AuthState {
         public java.lang.String toString() {
             return null;
         }
+        
+        public Error(@org.jetbrains.annotations.NotNull()
+        java.lang.String message) {
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getMessage() {
+            return null;
+        }
     }
     
     @kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u00c6\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0003"}, d2 = {"Lcom/workouttracker/ui/auth/AuthState$Idle;", "Lcom/workouttracker/ui/auth/AuthState;", "()V", "app_release"})
@@ -72,15 +79,6 @@ public abstract class AuthState {
     public static final class Success extends com.workouttracker.ui.auth.AuthState {
         @org.jetbrains.annotations.NotNull()
         private final com.workouttracker.data.model.User user = null;
-        
-        public Success(@org.jetbrains.annotations.NotNull()
-        com.workouttracker.data.model.User user) {
-        }
-        
-        @org.jetbrains.annotations.NotNull()
-        public final com.workouttracker.data.model.User getUser() {
-            return null;
-        }
         
         @org.jetbrains.annotations.NotNull()
         public final com.workouttracker.data.model.User component1() {
@@ -107,6 +105,15 @@ public abstract class AuthState {
         @java.lang.Override()
         @org.jetbrains.annotations.NotNull()
         public java.lang.String toString() {
+            return null;
+        }
+        
+        public Success(@org.jetbrains.annotations.NotNull()
+        com.workouttracker.data.model.User user) {
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final com.workouttracker.data.model.User getUser() {
             return null;
         }
     }

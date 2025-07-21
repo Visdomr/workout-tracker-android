@@ -391,62 +391,6 @@
     </incident>
 
     <incident
-        id="SetTextI18n"
-        severity="warning"
-        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/workouttracker/ui/workout/CreateWorkoutActivity.kt"
-            line="151"
-            column="44"
-            startOffset="5197"
-            endLine="151"
-            endColumn="73"
-            endOffset="5226"/>
-    </incident>
-
-    <incident
-        id="SetTextI18n"
-        severity="warning"
-        message="String literal in `setText` can not be translated. Use Android resources instead.">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/workouttracker/ui/workout/CreateWorkoutActivity.kt"
-            line="151"
-            column="64"
-            startOffset="5217"
-            endLine="151"
-            endColumn="72"
-            endOffset="5225"/>
-    </incident>
-
-    <incident
-        id="SetTextI18n"
-        severity="warning"
-        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/workouttracker/ui/workout/ExerciseAdapter.kt"
-            line="50"
-            column="37"
-            startOffset="1952"
-            endLine="50"
-            endColumn="88"
-            endOffset="2003"/>
-    </incident>
-
-    <incident
-        id="SetTextI18n"
-        severity="warning"
-        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/workouttracker/ui/workout/WorkoutDetailActivity.kt"
-            line="137"
-            column="38"
-            startOffset="4505"
-            endLine="137"
-            endColumn="109"
-            endOffset="4576"/>
-    </incident>
-
-    <incident
         id="OldTargetApi"
         severity="warning"
         message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
@@ -473,12 +417,12 @@
             url="https://developer.android.com/studio/build/migrate-to-ksp"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="74"
+            line="81"
             column="5"
-            startOffset="2012"
-            endLine="74"
+            startOffset="2135"
+            endLine="81"
             endColumn="45"
-            endOffset="2052"/>
+            endOffset="2175"/>
     </incident>
 
     <incident
@@ -492,12 +436,12 @@
             replacement="1.16.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="50"
+            line="57"
             column="20"
-            startOffset="1030"
-            endLine="50"
+            startOffset="1153"
+            endLine="57"
             endColumn="51"
-            endOffset="1061"/>
+            endOffset="1184"/>
     </incident>
 
     <incident
@@ -511,12 +455,12 @@
             replacement="1.7.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="51"
+            line="58"
             column="20"
-            startOffset="1081"
-            endLine="51"
+            startOffset="1204"
+            endLine="58"
             endColumn="56"
-            endOffset="1117"/>
+            endOffset="1240"/>
     </incident>
 
     <incident
@@ -530,12 +474,12 @@
             replacement="1.12.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="52"
+            line="59"
             column="20"
-            startOffset="1137"
-            endLine="52"
+            startOffset="1260"
+            endLine="59"
             endColumn="65"
-            endOffset="1182"/>
+            endOffset="1305"/>
     </incident>
 
     <incident
@@ -549,12 +493,12 @@
             replacement="2.2.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="53"
+            line="60"
             column="20"
-            startOffset="1202"
-            endLine="53"
+            startOffset="1325"
+            endLine="60"
             endColumn="70"
-            endOffset="1252"/>
+            endOffset="1375"/>
     </incident>
 
     <incident
@@ -568,12 +512,12 @@
             replacement="1.10.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="56"
+            line="63"
             column="20"
-            startOffset="1306"
-            endLine="56"
+            startOffset="1429"
+            endLine="63"
             endColumn="58"
-            endOffset="1344"/>
+            endOffset="1467"/>
     </incident>
 
     <incident
@@ -587,12 +531,12 @@
             replacement="1.8.8"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="57"
+            line="64"
             column="20"
-            startOffset="1364"
-            endLine="57"
+            startOffset="1487"
+            endLine="64"
             endColumn="58"
-            endOffset="1402"/>
+            endOffset="1525"/>
     </incident>
 
     <incident
@@ -606,12 +550,12 @@
             replacement="2.9.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="60"
+            line="67"
             column="20"
-            startOffset="1444"
-            endLine="60"
+            startOffset="1567"
+            endLine="67"
             endColumn="70"
-            endOffset="1494"/>
+            endOffset="1617"/>
     </incident>
 
     <incident
@@ -625,12 +569,12 @@
             replacement="2.9.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="61"
+            line="68"
             column="20"
-            startOffset="1514"
-            endLine="61"
+            startOffset="1637"
+            endLine="68"
             endColumn="69"
-            endOffset="1563"/>
+            endOffset="1686"/>
     </incident>
 
     <incident
@@ -644,12 +588,12 @@
             replacement="2.9.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="62"
+            line="69"
             column="20"
-            startOffset="1583"
-            endLine="62"
+            startOffset="1706"
+            endLine="69"
             endColumn="68"
-            endOffset="1631"/>
+            endOffset="1754"/>
     </incident>
 
     <incident
@@ -663,12 +607,12 @@
             replacement="2.9.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="65"
+            line="72"
             column="20"
-            startOffset="1674"
-            endLine="65"
+            startOffset="1797"
+            endLine="72"
             endColumn="71"
-            endOffset="1725"/>
+            endOffset="1848"/>
     </incident>
 
     <incident
@@ -682,12 +626,12 @@
             replacement="2.9.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="66"
+            line="73"
             column="20"
-            startOffset="1745"
-            endLine="66"
+            startOffset="1868"
+            endLine="73"
             endColumn="65"
-            endOffset="1790"/>
+            endOffset="1913"/>
     </incident>
 
     <incident
@@ -701,12 +645,12 @@
             replacement="1.4.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="69"
+            line="76"
             column="20"
-            startOffset="1835"
-            endLine="69"
+            startOffset="1958"
+            endLine="76"
             endColumn="62"
-            endOffset="1877"/>
+            endOffset="2000"/>
     </incident>
 
     <incident
@@ -720,12 +664,12 @@
             replacement="2.7.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="72"
+            line="79"
             column="20"
-            startOffset="1923"
-            endLine="72"
+            startOffset="2046"
+            endLine="79"
             endColumn="54"
-            endOffset="1957"/>
+            endOffset="2080"/>
     </incident>
 
     <incident
@@ -739,12 +683,12 @@
             replacement="2.7.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="73"
+            line="80"
             column="20"
-            startOffset="1977"
-            endLine="73"
+            startOffset="2100"
+            endLine="80"
             endColumn="50"
-            endOffset="2007"/>
+            endOffset="2130"/>
     </incident>
 
     <incident
@@ -758,12 +702,12 @@
             replacement="2.7.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="74"
+            line="81"
             column="10"
-            startOffset="2017"
-            endLine="74"
+            startOffset="2140"
+            endLine="81"
             endColumn="45"
-            endOffset="2052"/>
+            endOffset="2175"/>
     </incident>
 
     <incident
@@ -777,12 +721,12 @@
             replacement="1.2.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="104"
+            line="111"
             column="31"
-            startOffset="3039"
-            endLine="104"
+            startOffset="3162"
+            endLine="111"
             endColumn="62"
-            endOffset="3070"/>
+            endOffset="3193"/>
     </incident>
 
     <incident
@@ -796,12 +740,12 @@
             replacement="3.6.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="105"
+            line="112"
             column="31"
-            startOffset="3101"
-            endLine="105"
+            startOffset="3224"
+            endLine="112"
             endColumn="75"
-            endOffset="3145"/>
+            endOffset="3268"/>
     </incident>
 
 </incidents>

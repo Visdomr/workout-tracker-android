@@ -4,7 +4,7 @@
             "outputFile": "com.workouttracker.app-mergeReleaseResources-58:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/home/eric/.gradle/caches/transforms-3/c8d5808b3279f38fe8f6b720065684b4/transformed/appcompat-1.6.1/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/home/eric/.gradle/caches/transforms-3/76f4977e6155f2c0a3c87d079788071b/transformed/appcompat-1.6.1/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/eric/.gradle/caches/transforms-3/8f6ad5347ab3511700a6bf0a30cf5f92/transformed/material-1.11.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/home/eric/.gradle/caches/transforms-3/b75b01bf8026ea78783dc9ddfd63e8f0/transformed/navigation-ui-2.7.6/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "109,110",
+                        "startColumns": "4,4",
+                        "startOffsets": "9446,9558",
+                        "endColumns": "111,119",
+                        "endOffsets": "9553,9673"
+                    }
+                },
+                {
+                    "source": "/home/eric/.gradle/caches/transforms-3/99f61219cffd648f152f7b0a70bbc899/transformed/material-1.11.0/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/eric/.gradle/caches/transforms-3/0791c43a2785cbfe19764cf145af4741/transformed/preference-1.2.1/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,262,341,492,661,748",
-                        "endColumns": "69,86,78,150,168,86,80",
-                        "endOffsets": "170,257,336,487,656,743,824"
-                    },
-                    "to": {
-                        "startLines": "48,50,111,113,116,117,118",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "4525,4659,9678,9834,10172,10341,10428",
-                        "endColumns": "69,86,78,150,168,86,80",
-                        "endOffsets": "4590,4741,9752,9980,10336,10423,10504"
-                    }
-                },
-                {
-                    "source": "/home/eric/.gradle/caches/transforms-3/6d6177a8f75d78f32a5ef6ef54a48208/transformed/core-1.12.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/home/eric/.gradle/caches/transforms-3/d300a2699bfd0fcc2c10f24034686554/transformed/core-1.12.0/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -74,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "/home/eric/.gradle/caches/transforms-3/abf9edc7f8ab2ede6536c8cc81a95406/transformed/navigation-ui-2.7.6/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/home/eric/.gradle/caches/transforms-3/56cb46e50cf2d4d03c72ba919197c850/transformed/preference-1.2.1/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,262,341,492,661,748",
+                        "endColumns": "69,86,78,150,168,86,80",
+                        "endOffsets": "170,257,336,487,656,743,824"
                     },
                     "to": {
-                        "startLines": "109,110",
-                        "startColumns": "4,4",
-                        "startOffsets": "9446,9558",
-                        "endColumns": "111,119",
-                        "endOffsets": "9553,9673"
+                        "startLines": "48,50,111,113,116,117,118",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "4525,4659,9678,9834,10172,10341,10428",
+                        "endColumns": "69,86,78,150,168,86,80",
+                        "endOffsets": "4590,4741,9752,9980,10336,10423,10504"
                     }
                 }
             ]
